@@ -16,5 +16,5 @@ https.createServer({
   cert: fs.readFileSync(path.join(__dirname,  'MYCERT.crt'))
 }, app)
  .listen(443, function() {
-    console.log('Example app listening on port 443! Go to https://192.168.68.60:3000/');
+    console.log('Example app listening on port 443! Go to https://127.0.0.1:3000/');
 });
